@@ -1,5 +1,5 @@
 
-import '../global.css';
+import '../../global.css';
 
 
 
@@ -9,7 +9,7 @@ import '../global.css';
 
 export const unstable_settings = {
 	// Ensure that reloading on `/modal` keeps a back button present.
-	initialRouteName: "(tabs)",
+	initialRouteName: "./src/app/(tabs)",
 };
 
 export default function RootLayout() {
@@ -22,5 +22,5 @@ export default function RootLayout() {
 			<Stack.Screen name="modal" options={{ presentation: "modal" }} />
 		</Stack>
 		
-  	);
+  	)
 }
